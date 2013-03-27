@@ -1,0 +1,10 @@
+{
+  "name": "modernizr-ie",
+  "version": "0.0.1",
+  "main": "modernizr-ie.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}
