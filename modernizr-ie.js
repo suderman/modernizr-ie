@@ -26,25 +26,22 @@
 
   }());
 
+  // Check if ie version has been detected
+  if (typeof ie !== 'undefined') {
 
-  // Set ie to false if undefined
-  if (typeof ie === 'undefined') {
-    ie = false;
-  }
-
-  // Add ie classes to html element
-  else {
+    // Add ie classes to html element
     document.documentElement.className += ' ie ie' + ie;
-  }
 
-  // Assign ie to Modernizr if available
-  if (typeof Modernizr !== 'undefined') {
-    Modernizr.ie = ie;
-  }
+    // Assign ie to Modernizr if available
+    if (typeof Modernizr !== 'undefined') {
+      Modernizr.ie = ie;
+    }
 
-  // Otherwise, assign ie to the window
-  else {
-    window.ie = ie;
+    // Otherwise, assign ie to the window
+    else {
+      window.ie = ie;
+    }
+
   }
 
 })();
