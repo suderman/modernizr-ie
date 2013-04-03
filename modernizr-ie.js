@@ -1,4 +1,4 @@
-// Modernizr IE version tests
+// Modernizr IE version test
 // Jon Suderman 2013
 (function(){
 
