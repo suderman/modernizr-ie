@@ -3,7 +3,7 @@ modernizr-ie
 
 Modernizr test to check the version of Internet Explorer.
 
-If the test detect Internet Explorer, Modernizr.ie will be set to the
+If the test detects Internet Explorer, Modernizr.ie will be set to the
 version. Also, the HTML element will be given a classname of "ie" and
 "ie#" where # is the version number (for example, "ie8"). If the test
 doesn't detect Internet Explorer, Modernizr.ie will be set to false and 
